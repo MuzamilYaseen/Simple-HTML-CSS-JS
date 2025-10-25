@@ -1,0 +1,74 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 14px 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#home, #about, #contact {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Recommendation Section */
+.recommendation {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.recommendation img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Contact Form */
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
